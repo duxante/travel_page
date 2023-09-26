@@ -3,7 +3,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%; 
+    width: 100%;
+    background-color: #29417c; 
 }
 
 .homeSectionDescription {
@@ -12,21 +13,22 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 20px auto;
-    max-width: 800px;
-    width: 100%;
+    max-width: 1200px;
 }
 
 .homeSectionDescription h2 {
+    color: white;
     font-weight: 600;
 }
 
 .homeSectionDescription p {
+    max-width: 1000px;
+    width: 100%;
     font-weight: 400;
-    color: grey;
+    color: white;
 }
 
 .homeSectionHolder img {
-    max-width: 1200px;
+    max-width: 600px;
     width: 100%;
 }

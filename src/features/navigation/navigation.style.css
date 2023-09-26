@@ -2,8 +2,8 @@
     display: flex;
     width: 100%;
     justify-content: center;
-    font-weight: 600;
-    font-size: 20px;
+    font-size: 17px;
+    background-color: #deebf3;
 }
 
 .navigation{
@@ -12,9 +12,6 @@
     align-items: center;
     max-width: 1200px;
     width: 100%;
-    color: black;
-    background-color: #ecf4ff;
-    border-radius: 10px;
 }
 
 .contactHolder{
@@ -31,8 +28,7 @@
 }
 
 .navigation img{
-    max-width: 160px;
+    max-width: 90px;
     width: 100%;
-    padding: 0px 25px;
 }
 

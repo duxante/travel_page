@@ -1,22 +1,31 @@
 .centralBookingSectionHolder{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%; 
-    margin: 50px auto;
+}
+
+.bigSection{
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    width: 100%;
 }
 
 .oneSection{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    max-width: 1200px;
     width: 100%;
-    margin: 50px auto;
-    background-color: #ecf4ff;
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    margin-bottom: 20px;
+}
+
+.middleSection{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 h2{
@@ -24,7 +33,13 @@ h2{
 }
 
 .oneSection img {
-    max-width: 300px;
+    max-width: 200px;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.middleSection img{
+    max-width: 200px;
     width: 100%;
     border-radius: 50%;
 }
@@ -38,6 +53,15 @@ h2{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: center;
+    max-width: 600px;
+    width: 100%;
+}
+
+.middleSectionTextAndButton{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
     justify-content: center;
     max-width: 600px;
     width: 100%;

@@ -16,29 +16,35 @@ const FooterSection = () => {
           <img className="footer" src={footer_image} alt="footer" />
         </div>
         <div className="rightSide">
-          <ul>
+          <div className="oneColumn">
             <p>PRODUCTS:</p>
-            <li>Download the app</li>
-            <li>Travel Buddy</li>
-            <li>Travel Buddy Pro</li>
-            <li>Travel Buddy for teams</li>
-            <li>Help center</li>
-          </ul>
-          <ul>
+            <ul>
+              <li>Download the app</li>
+              <li>Travel Buddy</li>
+              <li>Travel Buddy Pro</li>
+              <li>Travel Buddy for teams</li>
+              <li>Help center</li>
+            </ul>
+          </div>
+          <div className="oneColumn">
             <p>NEWS & RESOURCES:</p>
-            <li>Blog</li>
-            <li>Press</li>
-            <li>Jobs</li>
-            <li>User Agreements</li>
-            <li>Privacy policy</li>
-            <li>Security</li>
-            <li>Cookie preferences</li>
-          </ul>
-          <ul>
+            <ul>
+              <li>Blog</li>
+              <li>Press</li>
+              <li>Jobs</li>
+              <li>User Agreements</li>
+              <li>Privacy policy</li>
+              <li>Security</li>
+              <li>Cookie preferences</li>
+            </ul>
+          </div>
+          <div className="oneColumn">
             <p>PARTNERS:</p>
-            <li>Developer API</li>
-            <li>Supported booking sites</li>
-          </ul>
+            <ul>
+              <li>Developer API</li>
+              <li>Supported booking sites</li>
+            </ul>
+          </div>
         </div>
       </div>
       <hr />
