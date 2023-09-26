@@ -1,0 +1,41 @@
+.travelAppSectionHolder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+}
+
+.travelAppSection{
+    border-radius: 10px;
+    background-color: #ecf4ff;
+}
+
+.travelAppSectionDescription {
+    background-color: #ecf4ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.travelAppSectionHolder h2 {
+    font-weight: 600;
+}
+
+.travelAppSectionHolder p {
+    font-weight: 400;
+    color: grey;
+    max-width: 800px;
+    width: 100%;
+}
+
+.travelAppSectionHolder img {
+    max-width: 1200px;
+    width: 100%;
+}

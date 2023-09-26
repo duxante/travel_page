@@ -1,0 +1,32 @@
+.homeSectionHolder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+}
+
+.homeSectionDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 800px;
+    width: 100%;
+}
+
+.homeSectionDescription h2 {
+    font-weight: 600;
+}
+
+.homeSectionDescription p {
+    font-weight: 400;
+    color: grey;
+}
+
+.homeSectionHolder img {
+    max-width: 1200px;
+    width: 100%;
+}

@@ -1,24 +1,19 @@
-import logo from './logo.svg';
+import Navigation from './features/navigation/navigation.component';
+import HomeSection from './features/homeSection/homeSection.component';
+import CentralBookingSection from './features/centralBookingSection/centralBookingSection.component';
 import './App.css';
+import TravelAppSection from './features/travelAppSection/travelAppSection.component';
+import FooterSection from './features/footerSection/footerSection.component';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navigation/>
+      <HomeSection/>
+      <CentralBookingSection/>
+      <TravelAppSection />
+      <FooterSection />
+    </>
   );
 }
 

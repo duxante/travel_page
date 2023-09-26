@@ -1,0 +1,90 @@
+.footerSectionHolder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+}
+
+.leftAndRight{
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.leftSide{
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.logo{
+    max-width: 150px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.footer{
+    max-width: 350px;
+    width: 100%;
+}
+
+.rightSide{
+    max-width: 700px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.rightSide p{
+    font-weight: bold;
+}
+
+ul{
+    list-style-type: none;
+    color: grey;
+}
+
+ul p{
+    max-width: 200px;
+    width: 100%;
+    color: black;
+}
+
+ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.socialNetworkIcons{
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 30px auto;
+}
+
+.socialNetworkIcons img{
+    max-width: 50px;
+    width: 100%;
+    filter: grayscale(1);
+}
+
+.socialNetworkIcons img:hover{
+    filter: grayscale(0);
+    cursor: pointer;
+}
+
+.socialNetworkIcons p{
+    text-align: center;
+    color: grey;
+}
