@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/duxante/travel_page/static/css/main.1ded7e08.css",
+    "main.js": "/duxante/travel_page/static/js/main.9a821fa0.js",
+    "static/js/787.e1b95528.chunk.js": "/duxante/travel_page/static/js/787.e1b95528.chunk.js",
+    "static/media/reminder.jpg": "/duxante/travel_page/static/media/reminder.297afb57f83d9e5d4c08.jpg",
+    "static/media/booking.jpg": "/duxante/travel_page/static/media/booking.50044eb5c2a27b51dc75.jpg",
+    "static/media/footer_image.jpg": "/duxante/travel_page/static/media/footer_image.2e77fa6930bdf493a10d.jpg",
+    "static/media/travel_home_section_image.jpg": "/duxante/travel_page/static/media/travel_home_section_image.b66babeb05277d012441.jpg",
+    "static/media/travel_app.png": "/duxante/travel_page/static/media/travel_app.04f999f08eea3f25e30e.png",
+    "static/media/travel_app_section_image.jpg": "/duxante/travel_page/static/media/travel_app_section_image.be75d4ad0d61b6d581dd.jpg",
+    "static/media/travel_logo.png": "/duxante/travel_page/static/media/travel_logo.9ff05d179bbad821f4f4.png",
+    "index.html": "/duxante/travel_page/index.html",
+    "main.1ded7e08.css.map": "/duxante/travel_page/static/css/main.1ded7e08.css.map",
+    "main.9a821fa0.js.map": "/duxante/travel_page/static/js/main.9a821fa0.js.map",
+    "787.e1b95528.chunk.js.map": "/duxante/travel_page/static/js/787.e1b95528.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ded7e08.css",
+    "static/js/main.9a821fa0.js"
+  ]
+}
