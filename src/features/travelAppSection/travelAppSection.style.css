@@ -35,6 +35,7 @@
 }
 
 .travelAppSectionHolder img {
-    max-width: 1200px;
+    max-width: 800px;
     width: 100%;
+    margin: 20px auto 0;
 }

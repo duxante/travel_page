@@ -55,7 +55,7 @@ const FooterSection = () => {
         <img src={youtube} alt="youtube logo" />
         <img src={pinterest} alt="pinterest logo" />
       </div>
-      <p>©2023 Travel Buddy. All rights reserved.</p>
+      <p>©2023 Spomenko. All rights reserved.</p>
     </div>
   );
 };
