@@ -1,4 +1,4 @@
-import Navigation from './features/navigation/navigation.component';
+import NavigationBar from './features/navigation/navigation.component';
 import HomeSection from './features/homeSection/homeSection.component';
 import CentralBookingSection from './features/centralBookingSection/centralBookingSection.component';
 import './App.css';
@@ -8,9 +8,9 @@ import FooterSection from './features/footerSection/footerSection.component';
 function App() {
   return (
     <>
-      <Navigation/>
-      <HomeSection/>
-      <CentralBookingSection/>
+      <NavigationBar />
+      <HomeSection />
+      <CentralBookingSection />
       <TravelAppSection />
       <FooterSection />
     </>
